@@ -7,16 +7,22 @@
 }
 
 .body{
-  background-color: rgb(34, 34, 34)  ;
+  
+ background-color: rgb(34, 34, 34) ;
+  margin: 0;
+  padding: 0;
+  
+ 
+  
+}
+header{
   background-image: url(../imges/skater.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 90%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  height: 900px;
  
+  
 }
 
 
@@ -47,7 +53,7 @@
   align-items: center;
  padding: 15px 150px;
   background-color:  rgb(34, 34, 34);
-  position: sticky;
+  
   
  }
  
@@ -79,7 +85,7 @@
   text-align: center;
   color: whitesmoke;
   margin-left: 500px;
-  padding-top: 250px;
+  padding-top: 200px;
 }
 .header-section h3{
   font-size: 55px;
@@ -105,6 +111,37 @@
 }
 
  /* header-containt */
+ 
+
+
+ /* start-main */
+ .main{
+  margin-top: 200px;
+  background-color:rgb(34, 34, 34) ;
+ }
+
+.main-head{
+  width: 500px;
+  margin-left: 32%;
+  
+}
+.main-head h2{
+  color:rgb(255, 139, 0) ;
+  font-size: 3rem;
+  text-align: center;
+}
+.main-head p{
+  width: 600px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.644);
+}
+
+
+
+
+
+ /* start-main */
 
 
 
