@@ -257,6 +257,22 @@ header{
 }
 
 
+.main-head-1{
+  margin-top: 200px;
+  width: 500px;
+  margin-left: 32%;
+}
+.main-head-1 h4{
+  font-size: 13px;
+  text-align: center;
+  color: #ffffff75;
+}
+.main-head-1 h1{
+  font-size: 45px;
+  text-align: center;
+  color: rgb(255, 139, 0);
+  margin-top: -10px;
+}
 
 
 
