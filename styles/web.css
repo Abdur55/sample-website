@@ -175,10 +175,49 @@ header{
   gap: 30px;
 }
 
+.performance {
+  margin-left: 200px;
+  margin-top: 200px;
+  gap: 150px;
+}
+.performance .per-img img{
+  width: 500px;
+  border-radius: 5px; 
+}
+.per-containt{
+  width: 450px;
+  margin-top: 20px;
+}
+.performance .per-containt h2{
+  color:rgb(255, 139, 0) ;
+  font-size: 35px;
+  margin-bottom: 80px;
+}
+.per-containt p{
+  line-height: 1.9;
+  color: #ffffff9a;
+}
+.per-containt ul {
+  
+}
+.per-containt .per-para {
+   margin-top: 70px;
+}
+.per-containt .per-icon {
+  margin-top: 150px;
+  color: #ffffff8c;
+  line-height: 3;
+}
+.sin-icon{
+  
+  width: 20px;
+  margin-right: 15px;
+
+}
 
 
 
- /* start-main */
+ /* end-main */
 
 
 
@@ -215,6 +254,21 @@ header{
   margin-left: 70px;
   grid-template-columns: repeat(1, 1fr);
 }
+.performance {
+  flex-direction: column;
+  margin-left: 0;
+  padding: 10px;
+}
+.performance .per-img img{
+  width: 100%;
+}
+.per-containt{
+  width: 100%;
+}
+.per-containt p{
+  width: 100%;
+}
+
 
 
   
