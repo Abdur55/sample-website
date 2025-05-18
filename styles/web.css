@@ -327,6 +327,69 @@ header{
 }
 
 
+.contact {
+ 
+ width: 100%;
+  
+}
+.contact-container .form{ 
+  width: 800px;
+}
+.contact .contact-container .form input {
+     
+     padding: 15px 50px 15px 15px;
+     border-radius: 5px;
+     margin-right: 10px;
+     background-color: rgb(51, 51, 51);
+}
+.contact-container .form {
+ margin: 0 auto;
+}
+.contact-container .form input{
+  
+  margin-bottom: 15px;
+  border: none;
+  
+  
+}
+
+.contact-container .form ::placeholder{
+  color: #ffffff75;
+  
+}
+
+
+
+.contact-container .form .email{
+  width: 418px;
+}
+.contact-container .form .textarea{
+  background-color: rgb(51, 51, 51);
+  border: none;
+  width: 389px ;
+  height: 200px;
+  padding: 15px;
+  border-radius: 5px;
+  width:  453px;
+}
+.contact-container .form .form-btn{
+  display: block;
+  margin-left: 253px;
+  margin-top: 15px;
+  background-color: rgb(255, 139, 0);
+  border: 1px solid #ff8b00;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 1rem 3rem;
+  font-size: 20px;
+  color: #fff;
+
+}
+
+.contact-container .contact-contain{
+  width: 350px;
+}
+
  /* end-main */
 
 
