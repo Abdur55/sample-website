@@ -145,7 +145,6 @@ header{
   border: 1px solid ;
   height: 400px;
   margin-top: 50px;
-  
   padding:15px ;
   transition: 0.2s ease-in-out;
   border-radius: 5px;
@@ -153,7 +152,11 @@ header{
 }
 
 .box-1:hover{
+  height: 420px;
+  font-size: 40px;
+  box-shadow: 3px 2px 8px lightblue;
   border: 2px solid lightblue;
+  
 }
 
 
@@ -167,9 +170,9 @@ header{
   
 }
 .box {
-  margin-left: 250px;
+  margin-left: 200px;
   grid-template-columns: repeat( 3, 1fr );
-  gap: ;
+  gap: 30px;
 }
 
 
@@ -196,6 +199,23 @@ header{
    .header-section h3{
     font-size: 43px;
    }
+
+   .main-head{
+  width: 100%;
+  margin-left: 0; 
+ 
+}
+.main-head p{
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+}
+.box {
+   /* width: 100%; */
+  margin-left: 70px;
+  grid-template-columns: repeat(1, 1fr);
+}
+
 
   
 }
