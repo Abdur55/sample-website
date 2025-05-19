@@ -329,11 +329,11 @@ header{
 
 .contact {
  
- width: 100%;
-  
+ width: 60%;
+  margin: 0 auto;
 }
 .contact-container .form{ 
-  width: 800px;
+  width: 600px;
 }
 .contact .contact-container .form input {
      
@@ -342,8 +342,9 @@ header{
      margin-right: 10px;
      background-color: rgb(51, 51, 51);
 }
+
 .contact-container .form {
- margin: 0 auto;
+ /* margin: 0 auto; */
 }
 .contact-container .form input{
   
@@ -358,7 +359,9 @@ header{
   
 }
 
-
+.contact-container{
+  gap: 200px;
+}
 
 .contact-container .form .email{
   width: 418px;
@@ -385,10 +388,42 @@ header{
   color: #fff;
 
 }
+.form .form-btn:hover{
+  background-color: #ff8c00c2;
+}
+.contact-contain button:hover{
+  background-color: #ff8c00c2;
+  cursor: pointer;
+}
+
+
 
 .contact-container .contact-contain{
-  width: 350px;
+  width: 100%;
+  
 }
+.contact-contain h2{
+  font-size: 28px;
+  color: #ff8c00e3;
+  width: 350px;
+  font-weight: 400;
+}
+
+
+.contact-contain p{
+  color: rgb(102, 98, 98) ;
+   width: 350px;
+}
+.contact-contain  button{
+  border: 1px solid #ff8b00;
+  background-color: #ff8b00;
+  border-radius: 5px ;
+  color: #fff;
+  padding: 10px 15px ;
+  font-size: 18px;
+}
+
+
 
  /* end-main */
 
@@ -441,6 +476,9 @@ header{
 .per-containt p{
   width: 100%;
 }
+.contact-container {
+  flex-direction: column;
+}
 
 
 
@@ -465,6 +503,32 @@ header{
 .section-flex{
   flex-direction: column;
 }
+.contact{
+  margin: 0;
+  width: 93%;
+  padding: 17px;
+}
+.contact-container .form{
+  width: 90%;
+}
+.contact-container .form input{
+  width: 95%;
+}
+.contact-container .form .email {
+  width: 95%;
+}
+
+.contact-container .form  .textarea{
+  width: 103%;
+}
+.contact-container .form  .form-btn{
+  width: 100%;
+  margin-left: 0%;
+}
+.main-head-1{
+  width: 80%;
+}
+
 
 
 
