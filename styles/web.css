@@ -439,15 +439,22 @@ header{
 .footer .footer-contant{
   width: 80%;
   margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 100px;
+  gap: -80px;
 }
 .footer-contant .about{
   width: 300px ;
   color: rgb(242, 255, 255);
-  padding: 50px;
+  
 }
 .footer-contant .about h4{
   font-weight: 400;
   
+}
+.footer-contant .footer-ul li:hover {
+  color:rgba(245, 245, 245, 0.993) ;
+  cursor: pointer;
 }
 .footer-contant .footer-ul {
   width: 300px;
@@ -465,7 +472,64 @@ header{
   color: rgba(245, 245, 245, 0.568);
 }
 
+.footer-contant .icon-2 img{
+  width: 20px;
+  margin-right: 20px;
+}
 
+.follow .follow-btn{
+   padding: 20px 40px;
+  font-size: 18px;
+  margin-left: -7px;
+  width: 120px;
+  background-color:#ff8b00 ;
+  border: 1px solid #ff9e27;
+  border-radius: 0 5px 5px 0;
+  color: #fff;
+
+}
+.follow .follow-email{
+  width: 220px;
+  padding: 20px;
+  font-size: 18px;
+  background-color: rgb(51, 51, 51);
+  border: 1px solid rgba(245, 245, 245, 0.603);
+  border-radius: 5px;
+  
+}
+.follow p{
+  color: rgb(245, 245, 245);
+  margin-top: 50px;
+}
+.follow h4{
+  color: rgb(242, 255, 255);
+}
+
+.footer .footer-container{
+  width: 80%;
+  margin: 0 auto;
+  
+  padding: 100px;
+  gap: -80px;
+  height: 350px;
+}
+.footer .footer-container p{
+   text-align: center;
+   margin-top: 100px;
+   font-size: 13px;
+   color:rgb(245, 245, 245) ;
+}
+.footer-container .love{
+  width: 15px;
+}
+.footer-container a:hover{
+  color: rgb(245, 245, 245);
+}
+.footer-container a{
+  color: rgba(245, 245, 245, 0.425);
+  text-decoration: none;
+  transition: 0.2s;
+}
 /* end-footer */
 
 
@@ -568,9 +632,27 @@ header{
   width: 80%;
 }
 
+.footer .footer-contant {
+  grid-template-columns: repeat(1, 1fr);
+  width: 50%;
+  margin-left: -80px;
+  
+}
+.footer-contant .about{
+  width: 100%;
+}
 
+.footer .footer-ul {
+  margin-left: -110px;
+}
+.follow {
+  width: 400px;
+}
 
-
+.footer .footer-container{
+  width: 65%;
+  margin-left: -30px;
+}
 
 
   
